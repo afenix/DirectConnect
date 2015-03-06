@@ -1,6 +1,8 @@
 <h3>Your Email</h3>
-{{from}}
-{{to}}
-{{subject}}
-{{message}}
+<h6>From: {{from}}</h6>
+<h6>From: {{to}}</h6>
+<h6>From: {{subject}}</h6>
+<h6>From: {{message}}</h6>
 
+<h4>Would you like to write another email?</h4>
+{{#link-to 'new-email' classNames="btn btn-primary btn-sm"}}New Email{{/link-to}}

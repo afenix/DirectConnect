@@ -1,8 +1,12 @@
 <h3>Your Emails</h3>
 <ul>
   {{#each email in model}}
-  <li class="li-name">{{#link-to 'email' email}}{{from}}{{/link-to}} | {{subject}}</li>
+  <li>
+    {{#link-to 'email' email}}<h6>From:{{email.from}} | Subject: {{email.subject}}</h6> {{/link-to}}</li>
   {{/each}}
 </ul>
+
+<h5>Would you like to write another email?</h5>
+{{#link-to 'new-email' classNames="btn btn-info"}}New Email{{/link-to}}
 
 
