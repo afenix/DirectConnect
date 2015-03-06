@@ -3,6 +3,7 @@
 <head>
   <title>DirectConnect</title>
 
+  <link rel="stylesheet" href="styles/bootstrap.css">
   <link rel="stylesheet" href="styles/bootstrap-paper.css">
   <link rel="stylesheet" href="styles/styles.css">
   <link href='http://fonts.googleapis.com/css?family=Alegreya|Josefin+Sans' rel='stylesheet' type='text/css'>
@@ -15,12 +16,25 @@
   <script src="libs/localstorage-adapter-0.5.1.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
+  <script src="directConnect.js"></script>
+  <script src="store.js"></script>
+  <script src="router.js"></script>
+
+  <script src="controllers/emails.js"></script>
+  <script src="controllers/new-email.js"></script>
+  
+  <script src="routes/email.js"></script>
+  <script src="routes/emails.js"></script>
+  <script src="routes/new-email.js"></script>
+  
+  <script src="models/emails.js"></script>
+  <script src="models/new-email.js"></script>
+
   <script>
     EmberHandlebarsLoader.loadTemplates([
-        'applications'
-        ])
+        'application', 'home', 'email', 'new-email', 'emails'
+        ]);
   </script>
-
 </head>
 <body>
 

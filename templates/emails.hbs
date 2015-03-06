@@ -1,0 +1,8 @@
+<h3>Your Emails</h3>
+<ul>
+  {{#each email in model}}
+  <li class="li-name">{{#link-to 'email' email}}{{from}}{{/link-to}} | {{subject}}</li>
+  {{/each}}
+</ul>
+
+

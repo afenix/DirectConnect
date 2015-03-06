@@ -1,2 +1,2 @@
-DirectConnect.ApplicationSerialization = DS.LSSerialization.extend();
+DirectConnect.ApplicationSerializer = DS.LSSerializer.extend();
 DirectConnect.ApplicationAdapter = DS.LSAdapter.extend();
