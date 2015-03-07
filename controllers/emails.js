@@ -28,7 +28,7 @@ DirectConnect.EmailsController = Ember.ArrayController.extend({
     },
 
     delete: function(email) {
-      if (confirm('Are you sure?')) {
+      if (confirm('Are you absolutely sure? This action can not be undone.')) {
         email.destroyRecord();
       }
     }
