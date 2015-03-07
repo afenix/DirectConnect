@@ -1,8 +1,11 @@
+
 <h3>Your Email</h3>
 <h6>From: {{from}}</h6>
 <h6>To: {{to}}</h6>
 <h6>Subject: {{subject}}</h6>
 <h6>Message: {{message}}</h6>
+
+<button class="btn btn-xs btn-danger" {{action 'delete'}}>delete</button>
 
 <br />
 <h4>Would you like to write another email?</h4>{{#link-to 'new-email' classNames="btn btn-primary btn-sm"}}New Email{{/link-to}}

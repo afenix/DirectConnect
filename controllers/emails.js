@@ -1,4 +1,4 @@
-DirectConnect.EmailsController = Ember.ArrayController.extend({
+DirectConnect.EmailsController = Ember.ObjectController.extend({
   sortProperties: ['from'],
   sortProperties: ['to'],
   actions: {
@@ -26,11 +26,5 @@ DirectConnect.EmailsController = Ember.ArrayController.extend({
       newEmail.save();
       this.transitionToRoute('emails');
     },
-
-    delete: function(email) {
-      if (confirm('Are you absolutely sure? This action can not be undone.')) {
-        email.destroyRecord();
-      }
-    }
   }
 });
