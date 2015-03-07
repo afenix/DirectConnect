@@ -12,7 +12,7 @@ DirectConnect.NewEmailController = Ember.Controller.extend({
       this.set('to', "");
       this.set('subject', "");
       this.set('message', "");
-      
+
       newEmail.save();
       this.transitionToRoute('emails');
     }

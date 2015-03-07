@@ -5,7 +5,8 @@
 <h6>Subject: {{subject}}</h6>
 <h6>Message: {{message}}</h6>
 
-<button class="btn btn-xs btn-danger" {{action 'delete'}}>delete</button>
+<button class="btn btn-xs btn-default" {{action 'delete'}}>delete</button>
+<p class="italic">Sorry, the DELETE feature is not yet available in this version of the app. Upgrade to Pro to unleash all the features of DirectConnect!</p>
 
 <br />
-<h4>Would you like to write another email?</h4>{{#link-to 'new-email' classNames="btn btn-primary btn-sm"}}New Email{{/link-to}}
+<h4>Would you like to write another email?</h4>{{#link-to 'new-email' classNames="btn btn-primary btn-sm"}}Compose Email{{/link-to}}
