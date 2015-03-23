@@ -1,7 +1,7 @@
 Direct Connect
 =======
 
-A simple example app built with Ember.js. All dependencies are included.
+A simple email app built with Ember.js. All dependencies are included.
 
 Features include [Ember.js](http://emberjs.com), [JQuery](http://jquery.com/),
 and [Bootstrap](http://getbootstrap.com/).
