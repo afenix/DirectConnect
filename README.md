@@ -16,7 +16,7 @@ Because the app uses AJAX to load templates, you cannot open `index.html` from t
 
 Motivation 
 ----------
-To practice building an application using Ruby on Rails, Active Record, and testing with Rspec and Capybara.
+To practice building an application using EmberJS.
 
 Bug Reports
 ------------
